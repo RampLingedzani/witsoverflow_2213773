@@ -47,7 +47,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     public static class MyViewHolder extends RecyclerView.ViewHolder{
 
-        TextView post, username, up, down;
+        TextView post, username, up, down;  //
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
